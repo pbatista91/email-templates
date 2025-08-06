@@ -1,0 +1,2136 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700;9..40,800;9..40,900&display=swap" rel="stylesheet">
+<head>
+    <meta name="viewport" content="width=device-width, maximum-scale=1, minimum-scale=1, user-scalable=no"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+
+    @media(max-width:800px){
+        .body-email{
+            width: 100% !important;
+        }
+        .banner-header{
+           height: 50vw !important;
+        }
+        .logo-nexus{
+            width: fit-content !important; 
+            margin: auto !important;
+            padding: 5vw 0px !important;
+        }
+        .imgLogoNexus{
+            width: 47vw !important;
+        }
+        .imgRedes{
+            width: 12vw !important;
+        }
+        .tag-desk{
+            display: none !important;
+        }
+        .tag-mob{
+            display: block !important;
+        }
+        .tag-desk-table{
+            display: none !important;
+        }
+        .countryButtonTitle {
+            font-size: 4.5vw!important;
+        }
+        .textInnerBoton, .textInnerBotonCorreo {
+            font-size: 18px !important;
+            margin: 0!important;
+        }
+
+        .summit p{
+            width: 100%!important;
+        }
+        .jolly p{
+            width: 65%!important;
+        }
+
+    }
+    @media (min-width: 577px) {
+        .global-table-mob{
+            display: none!important;
+        }
+
+        .tour-select-3,.tour-select-4, 
+        .tour-select-5, .tour-select-6,
+        .tour-select-7,.tour-select-8,.tour-select-9,
+        .tour-select-10{
+            display: none!important;
+        }
+
+    }
+    @media  (max-width:576px){
+        .global-td-desk-2{
+            display: none!important;
+        }
+        .global-destinos-desk{
+            display: none!important;
+        }
+        .card-sd.mb-22{
+            height: auto!important;
+        }
+        .mb-22{
+            margin-bottom: 25px!important;
+        }
+        .container-mktp-td{
+            height: auto!important;
+            margin-top: 8%!important;
+        }
+        
+                .img-destino-mob{
+                    width: 100%!important;
+                    object-fit: cover!important;
+                    border-radius: 10px!important;
+                }
+        
+        .global-td-mob{
+            width: 100% !important;
+            border-radius: 10px !important;
+            padding: 1% 1% 0% 1% !important;
+            height: auto !important;
+            background-color: #8DC651 !important;
+        }
+        .container-nexus-td{
+            padding: 1% 4% 1% 4%!important;
+            height: auto!important;
+        }
+
+        .InnerSDText{
+            font-size: 22px!important;
+        }
+
+        .text-card-couples{
+            padding: 5% 0!important;
+        }
+
+        .nexus-tours-td-mob{
+            width: 100%!important;
+            padding-top: 1% !important;
+            padding-left: 1% !important;
+            padding-right: 1% !important;
+            margin: auto !important;
+            background-color: #130D06 !important;
+            border-radius: 12px !important;
+        }
+
+        .nexus-img-mob{
+            width: 33%!important;
+        }
+
+        .mktp-td-txt{
+            font-size: 28px!important;
+            padding: 1%!important;
+        }
+        .mktp-td-txt-3 {
+            padding: 1%!important;
+            font-size: 28px!important;
+        }
+
+        .nexus-tours-td{
+            display: none!important;
+        }
+
+        .nxt-td-txt {
+            padding: 0 18%!important;
+            font-size: 22px !important;
+        }
+
+        .title-sd {
+            font-size: 30px!important;
+        }
+
+        .txt-couples{
+            text-align: center!important;
+            font-size: 28px!important;
+        }
+        .booking-1{
+                font-size: 17px!important;
+                font-weight: 600!important;            
+                margin: auto 3%!important;
+                margin-bottom: -2%!important;
+            }
+
+            .booking-2{
+                padding-bottom: 8%!important;
+                font-size: 19px!important;
+            }
+            .travel-1{
+                font-weight: 600!important;
+                margin: auto 3% !important;
+                font-size: 17px!important;
+            }
+
+            .travel-2{
+                margin: 0!important;
+                padding: 4%!important;
+                font-size: 19px!important;
+                height: auto!important;
+            }
+        .click-register{
+            display: block!important;
+        }
+        .containerLinkRegister{
+            width: 100%!important;
+            padding: 2%!important;
+        }
+
+        .tour-select-3,.tour-select-4, 
+        .tour-select-5, .tour-select-6,
+        .tour-select-7,.tour-select-8,.tour-select-9,
+        .tour-select-10{
+            padding: 2%!important;
+        }
+
+        .tour-select-5 .tour-subtext-2{
+            width: 100%!important;
+        }
+
+        .tour-select-3 .selection-button {
+            width: 55%!important;
+            margin-top: 23%!important;
+            margin-left: 45%!important;
+        }
+        .tour-select-4 .selection-button {
+            width: 55%!important;
+            margin-top: 23%!important;
+            margin-left: 45%!important;
+        }
+        .tour-select-5 .selection-button {
+            width: 55%!important;
+            margin-top: 35%!important;
+            margin-left: 45%!important;
+        }
+        .tour-select-6 .selection-button {
+            width: 55%!important;
+            margin-top: 23%!important;
+            margin-left: 45%!important;
+        }
+        .tour-select-7 .selection-button {
+            width: 55%!important;
+            margin-top: 35%!important;
+            margin-left: 45%!important;
+        }
+        .tour-select-8 .selection-button {
+            width: 55%!important;
+            margin-top: 35%!important;
+            margin-left: 45%!important;
+        }
+        .tour-select-9 .selection-button {
+            width: 55%!important;
+            margin-top: 24%!important;
+            margin-left: 45%!important;
+        }
+        .tour-select-10 .tour-subtext-2 {
+            width: 85%!important;
+        }
+        .tour-select-10 .selection-button {
+            width: 55%!important;
+            margin-top: 49%!important;
+            margin-left: 45%!important;
+        }
+
+        /*Caja de texto de contacto*/
+        .txt-contact-1{
+            font-size: 18px!important;
+        }
+    
+        /*Selección de tour mob*/
+        .tour-img{
+            width: 50%!important;
+        
+        }
+            .img-destination{
+                width:100%!important;
+                height: 170px!important;
+                border-radius: 10%!important;
+                margin: 0!important;
+            }
+            .contenedorTourTxT{
+                margin-top: 5%!important;
+                padding: 1% 5% 1% 5%!important;
+            }
+            .contenedorTourTxT2{
+                margin-top: 5%!important;
+                padding: 1% 5% 1% 5%!important;
+            }
+            .contenedorTourTxT3{
+                padding: 1% 10% 1% 5%!important;
+            }
+                .contenedorTourTxT3 .tour-subtext-2{
+                    width: 100%!important;
+                }
+            .contenedorTourTxT4{
+                margin-top: 6%!important;
+                padding: 1% 8% 1% 5%!important;
+            }
+            .contenedorTourTxT5{
+                padding: 1% 5% 1% 5%!important;
+            }
+            .contenedorTourTxT6{
+                padding: 1% 5% 1% 5%!important;
+            }
+            .contenedorTourTxT7{
+                padding: 1% 5% 1% 5%!important;
+            }
+            .contenedorTourTxT8{
+                margin-top: 5%!important;
+                padding: 1% 5% 1% 5%!important;
+            }
+
+            .tour-subtext-1{
+                margin: 1% 0 0 0!important;
+                font-size: 11px!important;
+                height: 12px!important;
+            }
+
+            .tour-subtext-2{
+                margin: 0.6% 0 0.6% 0!important;
+                font-size: 18px!important;
+            }
+
+            .tour-subtext-3{
+                font-size: 11px!important;
+            }
+            .img-location{
+                width: 3%!important;
+            }
+    }
+
+    @media (max-width: 520px) {
+        .card-text-sd {
+            padding: 0px 0px 10px 0px!important;
+            font-size: 3vw !important;
+        }
+        .card-text-l{
+            font-size: 3vw!important;
+        }
+        .desk-l {
+            padding: 0% !important;
+        }
+        .textInnerBoton, .textInnerBotonCorreo {
+            font-size: 3.6vw !important;
+        }
+    }
+
+    @media (min-width:400px) and (max-width:480px){
+        .last-chance{
+            font-size:26px!important;
+        }
+        .last-chance p{
+            margin: 0 0 4%!important;
+        }
+        .card-sd.mb-22 {
+            height: auto !important;
+        }
+        .discount-clients{
+            font-size: 50px!important;
+        }
+        .subTextSD{
+            margin-top: -9%!important;
+        }
+        .InnerSDText{
+            font-size: 18px!important;
+        }
+        .booking-2{
+            font-size: 18px!important;
+        }
+        .text-card-couples {
+            margin: 5% 0 1% !important;
+        }
+        .txt-couples {
+            text-align: center !important;
+            font-size: 24px !important;
+        }
+        .mktp-td-txt {
+            padding: 4%!important;
+        }
+        .travel-2{
+            padding: 3%!important;
+            font-size: 18px!important;
+        }
+        .tour-select-3{
+                margin-top: 5%!important;
+            }
+            .tour-select-3 .selection-button {
+                width: 70%!important;
+                margin-top: 16%!important;
+                margin-left: 30%!important;
+            }
+            
+            .tour-select-4{
+                padding: 2%!important;
+            }
+            .tour-select-4 .selection-button {
+                width: 70%!important;
+                margin-top: 16%!important;
+                margin-left: 30%!important;
+            }
+            .tour-select-4 .tour-subtext-2{
+                width: 100%!important;
+            }
+
+            .tour-select-5{
+                padding: 2%!important;
+            }
+            .tour-select-5 .selection-button {
+                width: 70%!important;
+                margin-top: 24%!important;
+                margin-left: 30%!important;
+            }
+            .tour-select-5 .tour-subtext-2{
+                width: 100%!important;
+            }
+
+            .tour-select-6{
+                padding: 2%!important;
+            }
+            .tour-select-6 .selection-button {
+                width: 70%!important;
+                margin-top: 16%!important;
+                margin-left: 30%!important;
+            }
+            .tour-select-6 .tour-subtext-2{
+                width: 95%!important;
+            }
+
+            .tour-select-7{
+                padding: 2%!important;
+            }
+            .tour-select-7 .selection-button {
+                width: 70%!important;
+                margin-top: 16%!important;
+                margin-left: 30%!important;
+            }
+            .tour-select-7 .tour-subtext-2{
+                width: 95%!important;
+            }
+
+            .tour-select-8{
+                padding: 2%!important;
+                margin-bottom: 15px;
+            }
+            .tour-select-8 .selection-button {
+                width: 70%!important;
+                margin-top: 16%!important;
+                margin-left: 30%!important;
+            }
+            .tour-select-8 .tour-subtext-2{
+                width: 95%!important;
+            }
+
+            .tour-select-9{
+                padding: 2%!important;
+                margin-bottom: 10px;
+            }
+            .tour-select-9 .selection-button {
+                width: 70%!important;
+                margin-top: 16%!important;
+                margin-left: 30%!important;
+            }
+            .tour-select-9 .tour-subtext-2{
+                width: 95%!important;
+            }
+
+            .tour-select-10 .tour-subtext-2{
+                width: 95%!important;
+            }
+            .tour-select-10 .selection-button {
+                width: 70%!important;
+                margin-top: 37%!important;
+                margin-left: 30%!important;
+            }
+        
+        .contenedorTourTxT3 {
+            padding: 0!important;
+        }
+        .contenedorTourTxT5 {
+            padding: 0!important;
+        }
+        .contenedorTourTxT6 {
+            padding: 0!important;
+        }
+        .contenedorTourTxT7 {
+            padding: 0!important;
+        }
+        .contenedorTourTxT8 {
+            padding: 0!important;
+        }
+        .contenedorTourTxT8 {
+            padding: 0!important;
+        }
+        .contenedorTourTxT8 {
+            padding: 0!important;
+        }
+        .contenedorTourTxT8 {
+            padding: 0!important;
+        }
+
+        .tour-select-3 .tour-subtext-2{
+            width: 90%!important;
+        }
+        .tour-subtext-2{
+            font-size: 16px!important;
+        }
+        .tour-subtext-3 {
+            font-size: 10px !important;
+        }
+        .mktp-td-txt-2 {
+            font-size: 16px!important;
+        }
+        .mktp-td-txt-3 {
+            font-size: 24px!important;
+        }
+        .nxt-td-txt {
+            padding: 0px 12%!important;
+        }
+        .txt-contact-1{
+            padding: 30px 0!important;    
+        }
+
+    }
+    @media (min-width:331px) and (max-width:399px){
+        .last-chance{
+            font-size:22px!important;
+        }
+        .last-chance p{
+            margin: 0 0 4%!important;
+        }
+        .title-sd{
+            font-size: 24px!important;
+        }
+        .discount-clients {
+            font-size: 50px!important;
+        }
+        .subTextSD{
+            margin-top: -10%!important;
+        }
+        .InnerSDText{
+            font-size: 15px!important;
+        }
+        .card-sd.mb-22 {
+            height: auto !important;
+        }
+        .mb-22{
+            margin-bottom: 22px!important;
+        }
+        .txt-couples {
+            font-size: 22px!important;
+            text-align: center!important;
+        }
+        .click-register {
+            margin-bottom: 5%!important;
+        }
+        .containerLinkRegister p {
+            font-size: 15px!important;
+        }
+        .mktp-td-txt {
+            padding: 1%!important;
+            font-size: 22px !important;
+        }
+        .mktp-td-txt-2 {
+            font-size: 20px !important;
+        }
+        .mktp-td-txt-3 {
+            font-size: 22px!important;
+        }
+        .img-destino-mob {
+            height: 55px !important;
+        }
+        .booking-2{
+            margin: 4% 0 4% 0!important;
+            padding: 0%!important;
+            font-size: 15px!important;
+        }
+        .travel-2{
+            padding: 3% !important;
+            font-size: 15px!important;
+        }
+        .tour-select{
+            padding: 1%!important;
+        }
+        .tour-select-3{
+                margin-top: 5%!important;
+            }
+            .tour-select-3 .selection-button {
+                width: 70%!important;
+                margin-top: 16%!important;
+                margin-left: 30%!important;
+            }
+            
+            .tour-select-4{
+                padding: 2%!important;
+            }
+            .tour-select-4 .selection-button {
+                width: 70%!important;
+                margin-top: 16%!important;
+                margin-left: 30%!important;
+            }
+            .tour-select-4 .tour-subtext-2{
+                width: 100%!important;
+            }
+
+            .tour-select-5{
+                padding: 2%!important;
+            }
+            .tour-select-5 .selection-button {
+                width: 70%!important;
+                margin-top: 30%!important;
+                margin-left: 30%!important;
+            }
+            .tour-select-5 .tour-subtext-2{
+                width: 100%!important;
+            }
+
+            .tour-select-6{
+                padding: 2%!important;
+            }
+            .tour-select-6 .selection-button {
+                width: 70%!important;
+                margin-top: 16%!important;
+                margin-left: 30%!important;
+            }
+            .tour-select-6 .tour-subtext-2{
+                width: 95%!important;
+            }
+
+            .tour-select-7{
+                padding: 2%!important;
+            }
+            .tour-select-7 .selection-button {
+                width: 70%!important;
+                margin-top: 30%!important;
+                margin-left: 30%!important;
+            }
+            .tour-select-7 .tour-subtext-2{
+                width: 95%!important;
+            }
+
+            .tour-select-8{
+                padding: 2%!important;
+                margin-bottom: 15px;
+            }
+            .tour-select-8 .selection-button {
+                width: 70%!important;
+                margin-top: 30%!important;
+                margin-left: 30%!important;
+            }
+            .tour-select-8 .tour-subtext-2{
+                width: 95%!important;
+            }
+
+            .tour-select-9{
+                padding: 2%!important;
+                margin-bottom: 10px;
+            }
+            .tour-select-9 .selection-button {
+                width: 70%!important;
+                margin-top: 16%!important;
+                margin-left: 30%!important;
+            }
+            .tour-select-9 .tour-subtext-2{
+                width: 95%!important;
+            }
+            .tour-select-10{
+                padding: 2%!important;
+                margin-bottom: 10px;
+            }
+            .tour-select-10 .selection-button {
+                width: 70%!important;
+                margin-top: 40%!important;
+                margin-left: 30%!important;
+            }
+            .tour-select-10 .tour-subtext-2{
+                width: 95%!important;
+            }
+        .contenedorTourTxT3{
+            padding: 0%!important;
+        }
+        .contenedorTourTxT3 .tour-subtext-2{
+            width: 90%!important;
+        }
+        .contenedorTourTxT4{
+            padding: 0%!important;
+        }
+        .contenedorTourTxT4 .tour-subtext-2{
+            width: 90%!important;
+        }
+        .contenedorTourTxT5{
+            padding: 0%!important;
+        }
+        .contenedorTourTxT5 .tour-subtext-2{
+            width: 90%!important;
+        }
+        .contenedorTourTxT6{
+            padding: 0%!important;
+        }
+        .contenedorTourTxT6 .tour-subtext-2{
+            width: 100%!important;
+        }
+        .contenedorTourTxT7{
+            padding: 0%!important;
+        }
+        .contenedorTourTxT7 .tour-subtext-2{
+            width: 90%!important;
+        }
+        .contenedorTourTxT8{
+            padding: 0%!important;
+        }
+        .contenedorTourTxT8 .tour-subtext-2{
+            width: 90%!important;
+        }
+        .contenedorTourTxT9{
+            padding: 0%!important;
+        }
+        .contenedorTourTxT9 .tour-subtext-2{
+            width: 90%!important;
+        }
+        .contenedorTourTxT10{
+            padding: 0%!important;
+        }
+        .contenedorTourTxT10 .tour-subtext-2{
+            width: 90%!important;
+        }
+        .contenedorTourTxT11{
+            padding: 0%!important;
+        }
+        .contenedorTourTxT11 .tour-subtext-2{
+            width: 90%!important;
+        }
+        
+        .tour-subtext-2 {
+            font-size: 13px !important;
+        }
+        .tour-subtext-3 {
+            font-size: 8px !important;
+        }
+        .txt-contact-1 {
+            font-size: 12px !important;
+        }
+            .img-destination {
+                height: 120px!important;
+            }
+        .container-mktp-td {
+            margin-top: 8%!important;
+        }
+        .visit-us{
+            margin: 8% 3%!important;
+        }
+
+        .txt-contact-1{
+            padding: 0!important;
+        }
+    }
+    @media (min-width:300px) and (max-width:330px){
+        .last-chance{
+            font-size:20px!important;
+        }
+        .last-chance p{
+            margin: 0 0 4%!important;
+        }
+        .card-sd.mb-22 {
+            height: auto !important;
+        }
+        .mb-22{
+            margin-bottom: 22px!important;
+        }
+        .title-sd{
+            font-size: 25px!important;
+        }
+        .discount-clients{
+            font-size: 46px!important;
+        }
+        .subTextSD{
+            margin-top: -10%!important;
+        }
+        .InnerSDText{
+            font-size: 14px!important;
+        }
+        .text-card-couples {
+            margin: 0% !important;
+        }
+        .txt-couples{
+            font-size: 20px!important;
+            text-align: center!important;
+        }
+        .global-td-desk{
+            padding: 1% 1% 0 1%!important;  
+        }
+        .global-table-mob{
+            padding: 1% 1% 0 1%!important;  
+        }
+        
+        .img-destino-mob{
+            height: 50px!important;
+        }
+
+        .mktp-td-txt{
+            font-size: 20px!important;
+            padding: 1% !important;
+        }
+        .mktp-td-txt-2 {
+            font-size: 20px!important;
+        }
+        .mktp-td-txt-3 {
+            font-size: 20px!important;
+            padding: 1%!important;
+        }
+        .booking-2{
+            font-size: 0.9em!important;
+        }
+
+        .travel-2{
+            font-size: 0.8156em!important;
+        }
+            /*Selección de tour mob*/
+            .tour-select-3{
+                margin-top: 5%!important;
+            }
+            .contenedorTourTxT3 .tour-subtext-2 {
+                width: 100% !important;
+            }
+            .tour-select-3 .selection-button {
+                width: 70%!important;
+                margin-top: 16%!important;
+                margin-left: 30%!important;
+            }
+            
+            .tour-select-4{
+                padding: 2%!important;
+            }
+            .tour-select-4 .selection-button {
+                width: 70%!important;
+                margin-top: 16%!important;
+                margin-left: 30%!important;
+            }
+            .tour-select-4 .tour-subtext-2{
+                width: 100%!important;
+            }
+
+            .tour-select-5{
+                padding: 2%!important;
+            }
+            .tour-select-5 .selection-button {
+                width: 70%!important;
+                margin-top: 16%!important;
+                margin-left: 30%!important;
+            }
+            .tour-select-5 .tour-subtext-2{
+                width: 100%!important;
+            }
+
+            .tour-select-6{
+                padding: 2%!important;
+            }
+            .tour-select-6 .selection-button {
+                width: 70%!important;
+                margin-top: 16%!important;
+                margin-left: 30%!important;
+            }
+            .tour-select-6 .tour-subtext-2{
+                width: 95%!important;
+            }
+
+            .tour-select-7{
+                padding: 2%!important;
+            }
+            .tour-select-7 .selection-button {
+                width: 70%!important;
+                margin-top: 16%!important;
+                margin-left: 30%!important;
+            }
+            .tour-select-7 .tour-subtext-2{
+                width: 95%!important;
+            }
+
+            .tour-select-8{
+                padding: 2%!important;
+                margin-bottom: 15px;
+            }
+            .tour-select-8 .selection-button {
+                width: 70%!important;
+                margin-top: 16%!important;
+                margin-left: 30%!important;
+            }
+            .tour-select-8 .tour-subtext-2{
+                width: 95%!important;
+            }
+
+            .tour-select-9{
+                padding: 2%!important;
+            }
+            .tour-select-9 .selection-button {
+                width: 70%!important;
+                margin-top: 16%!important;
+                margin-left: 30%!important;
+            }
+            .tour-select-9 .tour-subtext-2{
+                width: 95%!important;
+            }
+
+            .tour-select-10{
+                padding: 2%!important;
+                margin-bottom: 10px;
+            }
+            .tour-select-10 .selection-button {
+                width: 70%!important;
+                margin-top: 30%!important;
+                margin-left: 30%!important;
+            }
+            .tour-select-10 .tour-subtext-2{
+                width: 100%!important;
+            }
+
+
+            .tour-img{
+            width: 50%!important;
+        }
+            
+            .img-destination{
+                width:100%!important;
+                height:100px!important;
+                border-radius: 10%!important;
+                margin: 0!important;
+            }
+
+            .contenedorTourTxT3{
+                padding: 0!important;
+            }
+            .contenedorTourTxT4{
+                margin-top: 2%!important;
+                padding: 0!important;
+            }
+            .contenedorTourTxT5 {
+            padding: 0!important;
+            }
+            .contenedorTourTxT6{
+                padding: 0!important;
+            }
+            .contenedorTourTxT7{
+                padding: 0!important;
+            }
+            .contenedorTourTxT8{
+                padding: 0!important;
+            }
+            .tour-subtext-1{
+                margin: 0!important;
+                font-size: 9px!important;
+                height: 12px!important;
+            }
+
+            .tour-subtext-2{
+                font-size: 11px!important;
+            }
+
+            .tour-subtext-3{
+                font-size: 7px!important;
+            }
+
+            .tour-select-3 .tour-img{
+                    align-content: start!important;
+            }
+            .container-nexus-td {
+                padding: 1% 4% 1% 4%!important;
+            }
+                .nxt-td-txt {
+                    text-align: center!important;
+                    margin: 4%!important;
+                    font-size: 18px !important;
+                }
+            .txt-contact-1{
+                font-size: 11px!important;
+            }
+            .container-mktp-td {
+            margin-top: 10%!important;
+        }
+
+        .txt-contact-1{
+            padding: 25px 0!important;
+        }
+    }
+
+
+        *{
+            font-family: 'DM Sans', sans-serif;
+            color: #4A4A4A;
+            box-sizing: border-box;
+        }
+
+        a{ 
+            text-decoration: none;
+        }
+
+        .container-email{
+            width: 100%;
+        }
+
+        .body-email{
+            width: 600px;
+            margin: auto;
+            background-color: #FCFCFC;
+            background-repeat: no-repeat;
+        }
+
+        .margin-bottom-22{
+            margin-bottom: 22px;
+        }
+
+        .banner-header{
+            background-image: url('https://www.nexustours.com/images/upload//Email-content/2025/transfers/bannerTransfers.png');
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 320px;
+            border-radius: 0 0 25px 25px;
+        }
+
+        .container-logo-nexus{
+            background-image: url('https://www.nexustours.com/images/upload//Email-content/Background_orange_midstay.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            width: 100%;
+            border-radius: 0px 0px 30px 30px;
+        }
+
+        .logo-nexus{
+            width: fit-content; 
+            margin: auto;
+            padding: 25px 0px;
+        }
+
+        .imgLogoNexus{
+            width: 288px;
+        }
+
+        .background-redes-table{
+            background-color: #333;
+        }
+
+        .container-text{
+            width: fit-content;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 0 2.5%;
+        }
+
+        .dominio{
+            font-size: 16px;
+            color: #FFF;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        .tag-desk{
+            display: block;
+        }
+
+        .tag-mob{
+            display: none;
+        }
+
+        .margin-bottom-15{
+            margin-bottom: 15px;
+        }
+        
+        .container90{
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .last-chance{
+            text-align: center;
+            font-size: 34px;
+        }
+        .last-chance p{
+            margin: 1% 0 4%;
+            font-weight: 600;
+            color: #4A4A4A;
+        }
+        .last-chance span{
+            font-weight: 700;
+            color: #FF621D;
+        }
+
+        .bold-text{
+            font-weight: 700;
+        }
+
+        .headerSupportCenter{
+            text-align: center; 
+            margin-top: 0; 
+            color: #FF621D; 
+            font-size: 18px;
+        }
+
+        .width50{
+            width: 50%;
+        }
+
+        .containerWhiteContact{
+            width: 98%; 
+            background-color: white; 
+            border-radius: 35px; 
+            border: 1px solid #DEDEDE; 
+            padding: 12px 0;
+            display: block;
+        }
+
+        .containerWhiteContact100{
+            width: 100%; 
+            background-color: white; 
+            border-radius: 35px; 
+            border: 1px solid #DEDEDE; 
+            padding: 12px 0;
+            height: 60px;
+        }
+
+        .tableInnerBoton{
+            margin-left: auto; 
+            margin-right: auto; 
+            width: fit-content;
+        }
+
+        .containerImagenInnerBoton{
+            width: 45px;
+        }
+
+        .imagenInnerBoton{
+            display: block; 
+            width: 35px;
+        }
+
+        .textInnerBoton{
+            margin-top: 0; 
+            margin-bottom: 0; 
+            font-size: 16px; 
+            color: #313131;
+        }
+
+        .tag-desk-table{
+            display: table;
+        }
+
+        /* sd */
+        .mb-22 {
+            margin-bottom: 22px;
+        }
+        .container90 {
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .card-sd {
+            background: #FD921E; 
+            width: 100%;
+            height: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            z-index: 1;
+            border-radius: 15px; 
+        }
+        .title-sd{
+            margin:0 5% 0 0;
+            font-size: 28px;
+            font-weight: 500;
+            color: #FFF;
+            
+        }
+        .subTextSD{
+            width: 100%;
+            height: auto;
+            align-content: center;
+            margin-top: -6%;
+            border-radius: 0 0 18px 18px;
+            box-shadow: 2px 3px 20px -4px rgba(0, 0, 0, 0.08);
+        }
+        .InnerSDText{
+            margin: 5% 0 3%;
+            color: #4A4A4A;
+            font-size: 25px;
+            font-weight: 700;
+            text-align: center;
+        }
+        .text-right{
+            text-align: right;
+        }
+        .discount-clients{
+            margin: 0;
+            font-size: 85px;
+            color: #FFF;
+            font-weight: 700;
+            text-align: center;
+        }
+
+        .text-card-couples{
+            width: 100%;
+            padding: 1% 0 3% 0;
+        }
+            .txt-couples{
+                margin: 0;
+                font-size: 30px;
+                text-align: center;
+            }
+            .booking-window{
+            width: 100%;
+            margin-top: 6%;
+            border-radius: 15px;
+            background: #FFF;
+            box-shadow: 2px 3px 20px -4px rgba(0, 0, 0, 0.08);
+            padding-top: 2%;
+            }
+
+            .booking-1{
+                height: 30px;
+                font-size: 18px;
+                font-weight: 700;
+                letter-spacing: 1px;
+                text-align: center;
+                color: #FFF;
+                background-color: #FF621D;
+                border-radius: 8px;
+                line-height: 140%;
+                margin: auto 6%;
+                margin-bottom: -10px;
+            }
+
+            .booking-2{
+                font-size: 17px;
+                font-weight: 500;
+                height: 30px;
+                text-align: center;
+                color:#4A4A4A;
+                border-radius: 8px;
+                line-height: 140%;
+                
+            }
+
+            .icono-palma-mallorca-1{
+                padding-right: 2.5%;
+                padding-top: 0.5%;
+                position: relative;
+                top: 2px;
+            }
+
+            .card-shadow{
+                border-radius: 15px;
+                background: #FFF;
+                box-shadow: 2px 3px 20px -4px rgba(0, 0, 0, 0.08);
+            }
+
+            .travel-window{
+                width: 100%;
+                border-radius: 15px;
+                background: #FFF;
+                box-shadow: 2px 3px 20px -4px rgba(0, 0, 0, 0.08);
+                padding: 2% 0 0 0 ;
+            }
+
+            .travel-1{
+                height: 30px;
+                font-size: 18px;
+                font-weight: 700;
+                letter-spacing: 1px;
+                text-align: center;
+                color: #FFF;
+                background-color: #FD921E;
+                border-radius: 8px;
+                line-height: 140%;
+                margin: auto 6%;
+                margin-bottom: -10px;
+            }
+
+            .travel-2{
+                padding: 2% 0 0 0;
+                margin: 2%;
+                font-size: 17px;
+                font-weight: 500;
+                height: 43px;
+                text-align: center;
+                color:#4A4A4A;
+                border-radius: 8px;
+            }
+
+            .icono-palma-mallorca-2{
+                margin-left: -1%;
+                margin-right: 3%;
+                position: relative;
+                top: 4px;
+            }
+
+
+        .global-td-desk{
+            width: 100%;
+            border-radius: 16px;
+            padding: 1% 0% 0 0.5%;
+            margin-bottom: 15px;
+            height: auto;
+            background-color: #FE127C;
+        }
+        .global-td-desk-2{
+            width: 100%;
+            border-radius: 16px;
+            padding: 1% 0% 0 0.5%;
+            height: auto;
+        }
+        .global-table-mob{
+            width: 100%;
+            border-radius: 16px;
+            padding: 1% 0% 0 0.5%;
+            height: auto;
+        }
+
+        .global-destinos-desk{
+            border-collapse: separate;
+            border-spacing: 10px 0;
+            width: 100%;
+            margin-top: 3%;
+        }
+
+        .toledo, .cliffs, .museum,.summit {
+            width: 50%;
+            padding: 1.5%;
+            border-radius: 15px;
+            background-color: #FFF;
+            box-shadow: 2px 3px 20px -4px rgba(0, 0, 0, 0.08);
+        }
+        .jolly, .lands, .coco-bongo,.saona {
+            width: 50%;
+            padding: 1.5%;
+            border-radius: 15px;
+            background-color: #FFF;
+            box-shadow: 2px 3px 20px -4px rgba(0, 0, 0, 0.08);
+        }
+
+        .toledo .selection-button{
+            margin: 5% 0 0 53%;
+        }
+        .cliffs .selection-button{
+            margin: 5% 0 0 53%;
+        }
+        .museum .selection-button{
+            margin: 5% 0 0 53%;
+        }
+        .summit .selection-button{
+            margin: 5% 0 0 53%;
+        }
+        .jolly .selection-button{
+            margin: 5% 0 0 53%;
+        }
+        .lands .selection-button{
+            margin: 5% 0 0 53%;
+        }
+        .coco-bongo .selection-button{
+            margin: 5% 0 0 53%;
+        }
+        .saona .selection-button{
+            margin: 14% 0 0 53%;
+        }
+        .content-img-gdd {
+            width: 100%;
+        }
+            .img-gdd {
+                border-radius: 9px;
+                width: 100%;
+                height: 100px;
+                object-fit: cover;
+            }
+        
+        .click-register{
+            background: #FFF;
+            border-radius:15px;
+            width: 100%;
+            box-shadow: 2px 3px 20px -4px rgba(0, 0, 0, 0.08);
+        }
+    
+     .containerLinkRegister{
+                background: #FF621D;
+                border-radius: 15px;
+                width: 100%;
+                padding: 1%;
+            }
+            .containerLinkRegister p{
+                font-size: 17px;
+                font-weight: 600;
+                text-align: center;
+                color: #FFF;
+                margin: 0;
+            }
+        .visit-us{
+            margin: auto 4%;
+            text-align: justify;
+        }
+            .txt-contact-1{
+                margin: 0;
+                padding: 40px 0;
+                font-weight: 700;
+                font-size: 20px;
+                color: #4A4A4A;
+            }
+            .txt-contact-2, .txt-contact-3{
+                font-weight: 500;
+                color: #4A4A4A;
+            }
+        
+        .btn-book{
+            display: flex;
+            justify-content: center;
+        }
+            .book-now{
+                background-color: #FF621D;
+                color: #FFF;
+                border-radius: 15px;
+                font-size: 18px;
+                width: 100%;
+                height: 30px;
+                text-align: center;
+                font-weight: 500;
+                padding-top: 0.5%;
+            }
+        
+        .container-mktp-td{
+            margin-top: 4%;
+        }
+            .mktp-td-txt{
+                margin: 0;
+                font-size: 30px;
+                text-align: center;
+                font-weight: 600;
+                color: #FF621D;
+            }
+            .mktp-td-txt-2{
+                color: #4A4A4A;
+                text-align: center;
+                margin: 0 0 3% 0;
+                font-size: 30px;
+                font-weight: 500;
+            }
+            .global-img-mob{
+                width: 20%;
+            }
+                .img-destino-mob{
+                    border-radius: 12px;
+                    width: 97%;
+                    height: 65px;
+                    object-fit: cover;
+                }
+
+        /*Selección de tours*/
+        .tour-select-3{
+            background-color: #FFF;
+            box-shadow: 2px 3px 20px -4px rgba(0, 0, 0, 0.08);
+            border-radius: 15px;
+            margin-top: 2%;
+            width: 100%;
+        }
+
+        .tour-select-3 .tour-subtext-2{
+            width: 75%;
+        }
+
+            .contenedorTourTxT3{
+                    margin-left: 5%;
+                }
+
+        .tour-select-3 .selection-button{
+            margin-top: 16%;
+            margin-left: 48%;
+        }
+
+        
+        .tour-select-4{
+            background-color: #FFF;
+            box-shadow: 2px 3px 20px -4px rgba(0, 0, 0, 0.08);
+            border-radius: 15px;
+            margin-top: 5%;
+            width: 100%;
+        }
+
+        .tour-select-4 .tour-subtext-2{
+            width: 90%;
+        }
+                .contenedorTourTxT5{
+                    margin-left: 5%;
+                }
+
+        .tour-select-4 .selection-button{
+            margin-top: 16%;
+            margin-left: 48%;
+        }
+                    
+      
+        .tour-select-5{
+            background-color: #FFF;
+            box-shadow: 2px 3px 20px -4px rgba(0, 0, 0, 0.08);
+            border-radius: 15px;
+            margin-top:5%;
+            width: 100%;
+        }
+        .tour-select-5 .tour-subtext-2{
+            width: 75%;
+        }
+                .contenedorTourTxT6{
+                    margin-left: 5%;
+                }
+        .tour-select-5 .selection-button{
+            margin-top: 16%;
+            margin-left: 48%;
+        }
+
+
+        .container-nexus-td{
+            padding: 1% 15% 1% 15%;
+            align-content: center;
+            justify-items: center;
+            height: auto;
+        }
+            .nxt-td-txt{
+                text-align: center;
+                font-weight: 700;
+                font-size: 30px;
+                color: #FF621D;
+            }
+
+            .nxt-td-txt-2{
+                font-weight: 500;
+                color: #4A4A4A
+            }
+        .nexus-tours-td{
+            width: 100%;
+            padding-top: 1%;
+            padding-left: 1%;
+            margin: auto;
+            background-color: #AAABAF;
+            border-radius: 15px;
+        }
+
+        .tour-select-6{
+            background-color: #FFF;
+            box-shadow: 2px 3px 20px -4px rgba(0, 0, 0, 0.08);
+            border-radius: 15px;
+            margin-top:3%;
+            width: 100%;
+        }
+        .tour-select-6 .tour-subtext-2{
+            width: 95%;
+        }
+            .contenedorTourTxT7{
+                        margin-left: 5%;
+                    }
+        .tour-select-6 .selection-button{
+            margin-top: 16%;
+            margin-left: 48%;
+        }
+
+        .tour-select-7{
+            background-color: #FFF;
+            box-shadow: 2px 3px 20px -4px rgba(0, 0, 0, 0.08);
+            border-radius: 15px;
+            margin-top:2%;
+            width: 100%;
+        }
+        .tour-select-7 .tour-subtext-2{
+            width: 70%;
+        }
+        .contenedorTourTxT8{
+                    margin-left: 5%;
+                }
+        .tour-select-7 .selection-button{
+            margin-top: 16%;
+            margin-left: 48%;
+        }
+        
+        .tour-select-8{
+            background-color: #FFF;
+            box-shadow: 2px 3px 20px -4px rgba(0, 0, 0, 0.08);
+            border-radius: 15px;
+            margin-top:2%;
+            width: 100%;
+        }
+        .tour-select-8 .tour-subtext-2{
+            width: 80%;
+        }
+        .contenedorTourTxT9{
+                    margin-left: 5%;
+                }
+        .tour-select-8 .selection-button{
+            margin-top: 16%;
+            margin-left: 48%;
+        }
+        
+        .tour-select-9{
+            background-color: #FFF;
+            box-shadow: 2px 3px 20px -4px rgba(0, 0, 0, 0.08);
+            border-radius: 15px;
+            margin-top:2%;
+            width: 100%;
+        }
+        .tour-select-9 .tour-subtext-2{
+            width: 75%;
+        }
+        .contenedorTourTxT10{
+                    margin-left: 5%;
+                }
+        .tour-select-9 .selection-button{
+            margin-top: 16%;
+            margin-left: 48%;
+        }
+
+        .tour-select-10{
+            background-color: #FFF;
+            box-shadow: 2px 3px 20px -4px rgba(0, 0, 0, 0.08);
+            border-radius: 15px;
+            margin-top:2%;
+            width: 100%;
+        }
+        .tour-select-10 .tour-subtext-2{
+            width: 75%;
+        }
+        .contenedorTourTxT11{
+                    margin-left: 5%;
+                }
+        .tour-select-10 .selection-button{
+            margin-top: 16%;
+            margin-left: 48%;
+        }
+            .selection-button{
+                background-color: #FF621D;
+                border-radius: 8px;
+                width: 45%;
+                height: 17px;
+                text-align: center;
+            }
+
+                .tour-subtext-1{
+                    color:#FF621D;
+                    font-weight: 700;
+                    font-size:11px ;
+                    height: 12px;
+                }
+
+                .tour-subtext-2{
+                    word-spacing: 1.6px;
+                    font-weight: 800;
+                    margin-top: -3%;
+                    margin-bottom: 0;
+                }
+
+                .tour-subtext-3{
+                    font-size:11px;
+                }
+                
+                .location-icon{
+                    margin-right: 1.5%;
+                }
+                    .text-btn-select{
+                        color: #FFF;
+                        font-size: 12px;
+                        position: relative;
+                        top: -3px;
+                    }
+            
+            .tour-img{
+                width: 50%;
+            
+            }
+                .img-destination{
+                    width: 95%;
+                    height: 130px;
+                    border-radius: 9px;
+                    margin: 3%;
+                    object-fit: cover;
+                }
+        
+        .countryButtonTitle{
+            text-align: left; 
+            margin-top: 0; 
+            color: #FF621D; 
+            font-size: 18px;
+            margin-bottom: 0;
+            line-height: 100%;
+        }
+
+        .nexus-bg-orange{
+            background-color: #FF621D;
+        }
+
+        .text-white{
+            color: #FFF;
+        }
+        
+        .font-size-12 {
+            font-size: 12px;
+        }
+
+        .font-size-13{
+            font-size: 13px;
+        }
+
+        .font-size-18{
+            font-size: 18px;
+        }
+
+        .font-size-20{
+            font-size: 20px;
+        }
+
+        .font-size-22{
+            font-size: 22px;
+        }
+
+        .text-center{
+            text-align: center;
+        }
+
+        .nexus-pa-20{
+            padding: 20px;
+        }
+
+        .nexus-pt-20{
+            padding-top: 20px;
+        }
+
+        .nexus-pb-20{
+            padding-bottom: 20px;
+        }
+
+        .nexus-vertical-align-center{
+            vertical-align: middle;
+        }
+
+        .nexus-mb-0{
+            margin-bottom: 0!important;
+        }
+
+        .container {
+        border-radius: 10px;
+        font-family: Arial, sans-serif;
+        padding: 10px;
+        width: 100%;
+        max-width: 600px;
+        margin: auto;
+        }
+
+        .row {
+            font-size: 0; /* Elimina el espacio entre los divs inline-block */
+        
+        }
+
+        .column {
+        display: inline-block;
+        vertical-align: middle;
+        font-size: 16px; /* Restaura el tamaño de fuente */
+        box-sizing: border-box;
+        padding: 10px;
+        }
+
+        .col-30 {
+            width: 30%;
+        }
+
+        .col-70 {
+        width: 70%;
+        }
+
+        .card {
+        background-color: #ffffff;
+        border-radius: 8px;
+        padding: 15px;
+        margin-bottom: 10px;
+        }
+
+        .icon {
+            height: 30px;
+            vertical-align: middle;
+            display: inline-block;
+            padding-right: 15px;
+        }
+
+        .text-content {
+        display: inline-block;
+        vertical-align: middle;
+        padding-left: 10px;
+        }
+
+        .orange-text {
+        color: #ff7f0e;
+        display: block;
+        }
+
+        .gray-text {
+        color: #4A4A4A;
+        }
+
+        /* Media query para pantallas más pequeñas */
+        @media screen and (max-width: 600px) {
+        .col-30, .col-70 {
+            width: 100%;
+            display: block;
+        }
+        .title {
+            text-align: left;
+            padding-left: 10px;
+        }
+        .col-30 {
+            padding-top: 0px;
+            padding-bottom: 10px;
+            padding-bottom: 0;
+        }
+        .col-70 {
+            padding-top: 0;
+        }
+        }
+
+        .font-weight-bold {
+        font-weight: bold;
+        }
+
+        .font-weight-normal {
+            font-weight: normal;
+        }
+
+        .separator-left {
+            border-left: 1px solid #C9C9C9;
+            height: 100%;
+            margin: 0 10px;
+        }
+
+        .separator-right {
+            border-right: 1px solid #C9C9C9;
+            height: 100%;
+        }
+
+        .d-none {
+            display: none;
+        }
+
+        .nexus-color-red {
+            color: #FF2C3D;
+        }
+
+        .nexus-color-orange{
+            color: #FF621D;
+        }
+
+        .img-fluid{
+            max-width: 100%;
+            height: auto;
+        }
+
+        .w-90 {
+            width: 90%;
+        }
+
+        @media screen and (max-width: 400px) {
+            .font-size-sm-60 {
+                font-size: 60px!important;
+            }
+
+            .font-size-sm-50 {
+                font-size: 50px!important;
+            }
+
+            .font-size-sm-24 {
+                font-size: 20px!important;
+            }
+
+            .font-size-sm-22 {
+                font-size: 20px!important;
+            }
+
+            .font-size-sm-20 {
+                font-size: 20px!important;
+            }
+
+            .font-size-sm-18 {
+                font-size: 18px!important;
+            }
+
+            .font-size-sm-16 {
+                font-size: 16px!important;
+            }
+
+            .font-size-sm-15 {
+                font-size: 15px!important;
+            }
+
+            .w-sm-100 {
+                width: 100%!important;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container-email">
+        <div id="email" class="body-email">
+            <table id="LogoHeader" class="margin-bottom-22" role="presentation" border="0" cellspacing="0" width="100%">
+                <tr>
+                    <td>
+                        <div class="banner-header" alt="banner-header" width="100%">
+                            <div class="container-logo-nexus">
+                                <div class="logo-nexus">
+                                    <img class="imgLogoNexus" alt="logo-nexus" src="https://www.nexustours.com/images/upload//Email-content/Logo-Nexus-White.png">
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+            <table role="presentation" border="0" cellspacing="0" width="100%">
+                <tr>
+                    <td>
+                        <div class="container90">
+                            <div class="last-chance">
+                                <p class="font-size-sm-20">¡No te lo pierdas!</p>
+                            </div>
+                            <div class="card-sd mb-22" style="padding: 10px;">
+                                <p class="title-sd text-right font-size-sm-22" style="line-height: 1;">Hasta <br>un</p><p class="discount-clients font-size-sm-50">25% dto</p>
+                            </div>
+                            <div class="mb-22">
+                                <p class="InnerSDText font-size-sm-16">en servicios de movilidad seleccionados</p>
+                            </div>
+
+                            <div class="container nexus-bg-orange">
+                                <div class="row">
+                                    <div class="column col-30 text-center nexus-vertical-align-center">
+                                        <h2 class="text-white font-size-22 font-size-sm-18 font-weight-normal">Ahora disponible</h2>
+                                    </div>
+                                    <div class="column col-70">
+                                    <div class="card">
+                                        <div class="icon separator-right">
+                                            <img src="https://www.nexustours.com/images/upload//Email-content/2025/transfers/airplane.png" alt="Avión" width="30" height="30">
+                                        </div>
+                                        <div class="text-content">
+                                            <span class="orange-text font-weight-bold font-size-22 font-size-sm-18">+3,5k <span class="gray-text font-weight-normal">Aeropuertos</span></span>
+                                            <span class="gray-text font-size-13 font-weight-normal">(Opciones de movilidad)</span>
+                                        </div>
+                                    </div>
+                                    <div class="card nexus-mb-0">
+                                        <div class="icon separator-right">
+                                            <img src="https://www.nexustours.com/images/upload//Email-content/2025/transfers/flag.png" alt="Bandera" width="30" height="30">
+                                        </div>
+                                        <div class="text-content">
+                                            <span class="orange-text font-weight-bold font-size-22 font-size-sm-18">+180 Países</span>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>            
+                            
+                            <div class="booking-window">
+                                <p class="booking-1">
+                                    <img src="https://www.nexustours.com/images/upload//Email-content/2024/palmaMallorca/calendar-palmaMallorca.png" class="icono-palma-mallorca-1">Booking Window</p>
+                                <p class="booking-2 font-size-sm-16">Agosto 5 a Septiembre 15 del 2025​</p>
+                            </div>
+                            <div class="travel-window">
+                                <p class="travel-1"> <img src="https://www.nexustours.com/images/upload//Email-content/2024/palmaMallorca/plane-palmaMallorca.png" class="icono-palma-mallorca-2">Travel Window</p>
+                                <p class="travel-2 font-size-sm-16">Agosto 6 a Octubre 19 del 2025​​</p>
+                            </div>
+
+                            <!--Global Top destinations-->
+                            <div class="container">
+                                <div class="row text-center">
+                                    <div class="column text-center">
+                                        <p class="font-size-22 font-size-sm-16 text-center gray-text "><span class="nexus-color-red font-weight-bold">Cotiza ahora</span> traslados internacionales</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!--Quote Now Desktop-->
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="column text-center" style="margin: 0 auto; width: 100%; padding: 0;">
+                                            <img class="img-fluid" style="z-index: 1;position: relative" src="https://www.nexustours.com/images/upload//Email-content/2025/transfers/world.png" alt="world">
+                                            <div class="card-shadow w-90 w-sm-100" style="margin-top: -50px; z-index: 999;position: relative; margin-left: auto; margin-right: auto; padding: 1px;">
+                                                <p class="font-size-22 font-size-sm-15 text-center gray-text"><span class="nexus-color-orange font-weight-bold">Nuevos destinos</span> cada mes​</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    </td>
+                </tr>
+            </table>
+            
+            <table class="margin-bottom-22" role="presentation" border="0" cellspacing="0" width="100%">
+                <tr>
+                    <td>
+                        <div class="container90">
+                            <div class="visit-us">
+                                <p class="txt-contact-1 font-size-sm-16">Visite nuestro sitio web <span class="txt-contact-2">o</span> póngase en contacto con nuestro Agent Support Center <span class="txt-contact-3">hoy mismo para aprovechar esta oferta exclusiva.</span></p>
+                            </div>
+
+                            <div class="click-register">
+                                <div class="containerLinkRegister">
+                                    <a href="https://tpp.nexustours.com/" target="_blank"><p>¡Reserva ahora!</p></a>
+                                </div>
+                            </div>
+                        </div>    
+                    </td>
+                </tr>
+            </table>
+
+
+            <table class="margin-bottom-22" role="presentation" border="0" cellspacing="0" width="100%">
+                <tr>
+                    <td>
+                        <div class="container90">
+                            <h4 class="headerSupportCenter margin-bottom-15">
+                                Agent Support Center
+                            </h4>
+                            <a class="containerWhiteContact100 margin-bottom-15" style="display: block;" href="https://wa.me/529981831689?text=Got%20it.%20Let's%20connect%20you%20to%20a%20NexusTours%20expert." target="_blank">
+                                <div>
+                                    <table class="tableInnerBoton" role="presentation" border="0" cellspacing="0" cellpadding="0">
+                                        <tr>
+                                            <td class="containerImagenInnerBoton">
+                                                <img class="imagenInnerBoton" src="https://www.nexustours.com/images/upload//Email-content/wa-green-email.png">
+                                            </td>
+                                            <td>
+                                                <h4 class="textInnerBoton">
+                                                    +52 998 183 1689
+                                                </h4>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </a>
+                            <table class="margin-bottom-15 tag-desk-table" role="presentation" border="0" cellspacing="0" cellpadding="0" width="100%">
+                                <tr>
+                                    <td class="width50">
+                                        <a href="tel:+529982516562" class="containerWhiteContact" target="_blank">
+                                            <div>
+                                                <table class="tableInnerBoton" role="presentation" border="0" cellspacing="0" cellpadding="0">
+                                                    <tr>
+                                                        <td class="containerImagenInnerBoton">
+                                                            <img class="imagenInnerBoton" src="https://www.nexustours.com/images/upload//Email-content/toll-email.png">
+                                                        </td>
+                                                        <td>
+                                                            <h4 class="countryButtonTitle">
+                                                                México
+                                                            </h4>
+                                                            <h4 class="textInnerBoton">
+                                                                +52 998 251 6562
+                                                            </h4>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                        </a>
+                                    </td>
+                                    <td class="width50">
+                                        <a href="tel:+18882031279" class="containerWhiteContact" target="_blank">
+                                            <div>
+                                                <table class="tableInnerBoton" role="presentation" border="0" cellspacing="0" cellpadding="0">
+                                                    <tr>
+                                                        <td class="containerImagenInnerBoton">
+                                                            <img class="imagenInnerBoton" src="https://www.nexustours.com/images/upload//Email-content/toll-email.png">
+                                                        </td>
+                                                        <td>
+                                                            <h4 class="countryButtonTitle">
+                                                                USA & Canadá
+                                                            </h4>
+                                                            <h4 class="textInnerBoton">
+                                                                +1 888 203 12 79
+                                                            </h4>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                        </a>
+                                    </td>
+                                </tr>
+                            </table>
+                            <a href="mailto:agentsupport@nexustours.com" class="containerWhiteContact100 tag-desk" target="_blank">
+                                <div>
+                                    <table class="tableInnerBoton" role="presentation" border="0" cellspacing="0" cellpadding="0">
+                                        <tr>
+                                            <td class="containerImagenInnerBoton">
+                                                <img class="imagenInnerBoton" src="https://www.nexustours.com/images/upload//Email-content/correoEmailOrange.png">
+                                            </td>
+                                            <td>
+                                                <h4 class="textInnerBoton">
+                                                    agentsupport@nexustours.com
+                                                </h4>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </a>
+                            <a href="tel:+529982516562" class="containerWhiteContact100 tag-mob margin-bottom-15" target="_blank">
+                                <div>
+                                    <table class="tableInnerBoton" role="presentation" border="0" cellspacing="0" cellpadding="0">
+                                        <tr>
+                                            <td class="containerImagenInnerBoton">
+                                                <img class="imagenInnerBoton" src="https://www.nexustours.com/images/upload//Email-content/toll-email.png">
+                                            </td>
+                                            <td>
+                                                <h4 class="textInnerBoton">
+                                                    <span class="orange-nexus bold-text" style="color: #FF621D;">Mexico</span> +52 998 251 6562
+                                                </h4>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </a>
+                            <a href="tel:+18882031279" class="containerWhiteContact100 tag-mob margin-bottom-15" target="_blank">
+                                <div>
+                                    <table class="tableInnerBoton" role="presentation" border="0" cellspacing="0" cellpadding="0">
+                                        <tr>
+                                            <td class="containerImagenInnerBoton">
+                                                <img class="imagenInnerBoton" src="https://www.nexustours.com/images/upload//Email-content/toll-email.png">
+                                            </td>
+                                            <td>
+                                                <h4 class="textInnerBoton">
+                                                    <span class="orange-nexus bold-text" style="color: #FF621D;">USA & Canada</span> +1 888 203 12 79
+                                                </h4>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </a>
+                            <a href="mailto:agentsupport@nexustours.com" class="containerWhiteContact100 tag-mob margin-bottom-15" target="_blank">
+                                <div>
+                                    <table class="tableInnerBoton" role="presentation" border="0" cellspacing="0" cellpadding="0">
+                                        <tr>
+                                            <td class="containerImagenInnerBoton">
+                                                <img class="imagenInnerBoton" src="https://www.nexustours.com/images/upload//Email-content/correoEmailOrange.png">
+                                            </td>
+                                            <td>
+                                                <h4 class="textInnerBotonCorreo">
+                                                    agentsupport@nexustours.com
+                                                </h4>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </a>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+            
+            <table id="RedesSociales" class="background-redes-table" role="presentation" border="0" cellspacing="0" width="100%">
+                <tr>
+                    <td>
+                        <div class="container-text">
+                            <a href="https://tpp.nexustours.com/" target="_blank">
+                                <h3 class="dominio">
+                                    tpp.nexustours.com
+                                </h3>
+                            </a>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
