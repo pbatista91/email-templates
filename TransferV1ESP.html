@@ -151,7 +151,7 @@
             font-size: 28px!important;
         }
         .booking-1{
-                font-size: 17px!important;
+                font-size: 16px!important;
                 font-weight: 600!important;            
                 margin: auto 3%!important;
                 margin-bottom: -2%!important;
@@ -164,7 +164,7 @@
             .travel-1{
                 font-weight: 600!important;
                 margin: auto 3% !important;
-                font-size: 17px!important;
+                font-size: 16px!important;
             }
 
             .travel-2{
@@ -1050,7 +1050,7 @@
         }
         .last-chance p{
             margin: 1% 0 4%;
-            font-weight: 600;
+            font-weight: bold;
             color: #4A4A4A;
         }
         .last-chance span{
@@ -1827,33 +1827,7 @@
             width: 90%;
         }
 
-        .responsive-icon{
-            width: 30px;
-            height: 30px;
-            object-fit: contain;
-        }
-
-        @media screen and (max-width: 300px) {
-            .font-size-xs-14 {
-                font-size: 14px !important;
-            }
-            .font-size-xs-12 {
-                font-size: 12px !important;
-            }
-        }
-
-        @media screen and (min-width: 301px) and (max-width: 400px) {
-            .icon{
-                padding-right: 10px;
-            }
-            .responsive-icon{
-                width: 25px;
-                height: 22px;
-                object-fit: contain;
-            }
-            .p-sm-5 {
-                padding: 5px !important;
-            }
+        @media screen and (max-width: 400px) {
             .font-size-sm-60 {
                 font-size: 60px!important;
             }
@@ -1886,20 +1860,35 @@
                 font-size: 15px!important;
             }
 
-            .font-size-sm-14 {
-                font-size: 14px!important;
-            }
-
-            .font-size-sm-12 {
-                font-size: 12px!important;
-            }
-
             .w-sm-100 {
                 width: 100%!important;
             }
+        }
 
-            .card {
-                padding: 10px!important;
+        .imagen-mobile {
+            display: none;
+            max-height: 0;
+            overflow: hidden;
+        }
+
+        .mt-50-negative {
+            margin-top: -50px;
+        }
+
+        @media screen and (max-width: 400px) {
+            .imagen-desktop {
+                display: none !important;
+            }
+
+            .imagen-mobile {
+                display: block !important;
+                width: 100% !important;
+                max-height: none !important;
+                overflow: visible !important;
+            }
+
+            .mt-sm-30-negative {
+                margin-top: -20px !important;
             }
         }
 
@@ -1911,14 +1900,13 @@
             <table id="LogoHeader" class="margin-bottom-22" role="presentation" border="0" cellspacing="0" width="100%">
                 <tr>
                     <td>
-                        <div class="banner-header" alt="banner-header" width="100%">
-                            <div class="container-logo-nexus">
-                                <div class="logo-nexus">
-                                    <img class="imgLogoNexus" alt="logo-nexus" src="https://www.nexustours.com/images/upload//Email-content/Logo-Nexus-White.png">
-                                </div>
+                            <div class="text-center imagen-desktop">
+                                <img src="https://raw.githubusercontent.com/pbatista91/email-templates/refs/heads/main/desktop-1.png" alt="group" style="width: 100%; display: block">
                             </div>
-                        </div>
-                    </td>
+                            <div class="text-center imagen-mobile">
+                                <img src="https://raw.githubusercontent.com/pbatista91/email-templates/refs/heads/main/mobile-1.png" alt="group" style="width: 100%; display: block">
+                            </div>
+                        </td>
                 </tr>
             </table>
             <table role="presentation" border="0" cellspacing="0" width="100%">
@@ -1926,50 +1914,33 @@
                     <td>
                         <div class="container90">
                             <div class="last-chance">
-                                <p class="font-size-sm-20">¡No te lo pierdas!</p>
+                                <p class="font-size-sm-20 font-weight-bold">¡No te lo pierdas!</p>
                             </div>
-                            <div class="card-sd mb-22" style="padding: 10px;">
-                                <p class="title-sd text-right font-size-sm-22" style="line-height: 1;">Hasta <br>un</p><p class="discount-clients font-size-sm-50">25% dto</p>
+                            <div class="text-center imagen-desktop margin-bottom-22">
+                                <img src="https://raw.githubusercontent.com/pbatista91/email-templates/refs/heads/main/desktop-2.png" alt="group" style="width: 100%; display: block">
+                            </div>
+                            <div class="text-center imagen-mobile margin-bottom-22">
+                                <img src="https://raw.githubusercontent.com/pbatista91/email-templates/refs/heads/main/mobile-2.png" alt="group" style="width: 100%; display: block">
                             </div>
                             <div class="mb-22">
                                 <p class="InnerSDText font-size-sm-16">en servicios de movilidad seleccionados</p>
                             </div>
 
-                            <div class="container nexus-bg-orange">
-                                <div class="row">
-                                    <div class="column p-sm-5 col-30 text-center nexus-vertical-align-center">
-                                        <h2 class="text-white font-size-22 font-size-sm-16 font-weight-normal">Ahora disponible</h2>
-                                    </div>
-                                    <div class="column p-sm-5 col-70">
-                                    <div class="card">
-                                        <div class="icon separator-right">
-                                            <img src="https://www.nexustours.com/images/upload//Email-content/2025/transfers/airplane.png" alt="Avión" class="responsive-icon">
-                                        </div>
-                                        <div class="text-content">
-                                            <span class="orange-text font-weight-bold font-size-22 font-size-sm-15">+3,5k <span class="gray-text font-weight-normal">Aeropuertos</span></span>
-                                            <span class="gray-text font-size-13 font-weight-normal">(Opciones de movilidad)</span>
-                                        </div>
-                                    </div>
-                                    <div class="card nexus-mb-0">
-                                        <div class="icon separator-right">
-                                            <img src="https://www.nexustours.com/images/upload//Email-content/2025/transfers/flag.png" alt="Bandera"  class="responsive-icon">
-                                        </div>
-                                        <div class="text-content">
-                                            <span class="orange-text font-weight-bold font-size-22 font-size-sm-15">+180 Países</span>
-                                        </div>
-                                    </div>
-                                    </div>
-                                </div>
-                            </div>            
+                            <div class="text-center imagen-desktop">
+                                <img src="https://raw.githubusercontent.com/pbatista91/email-templates/refs/heads/main/desktop-3.png" alt="group" style="width: 100%; display: block">
+                            </div>
+                            <div class="text-center imagen-mobile">
+                                <img src="https://raw.githubusercontent.com/pbatista91/email-templates/refs/heads/main/mobile-3.png" alt="group" style="width: 100%; display: block">
+                            </div>          
                             
                             <div class="booking-window">
-                                <p class="booking-1 font-size-sm-16">
+                                <p class="booking-1 font-size-sm-15">
                                     <img src="https://www.nexustours.com/images/upload//Email-content/2024/palmaMallorca/calendar-palmaMallorca.png" class="icono-palma-mallorca-1">Booking Window</p>
-                                <p class="booking-2 font-size-sm-16">Agosto 5 a Septiembre 15 del 2025​</p>
+                                <p class="booking-2 font-size-sm-15">Agosto 5 a Septiembre 15 del 2025​</p>
                             </div>
-                            <div class="travel-window font-size-sm-16">
+                            <div class="travel-window font-size-sm-15">
                                 <p class="travel-1"> <img src="https://www.nexustours.com/images/upload//Email-content/2024/palmaMallorca/plane-palmaMallorca.png" class="icono-palma-mallorca-2">Travel Window</p>
-                                <p class="travel-2 font-size-sm-16">Agosto 6 a Octubre 19 del 2025​​</p>
+                                <p class="travel-2 font-size-sm-15">Agosto 6 a Octubre 19 del 2025​​</p>
                             </div>
 
                             <!--Global Top destinations-->
@@ -1986,7 +1957,7 @@
                                     <div class="row">
                                         <div class="column text-center" style="margin: 0 auto; width: 100%; padding: 0;">
                                             <img class="img-fluid" style="z-index: 1;position: relative" src="https://www.nexustours.com/images/upload//Email-content/2025/transfers/world.png" alt="world">
-                                            <div class="card-shadow w-90 w-sm-100" style="margin-top: -50px; z-index: 999;position: relative; margin-left: auto; margin-right: auto; padding: 1px;">
+                                            <div class="card-shadow w-90 w-sm-100 mt-50-negative mt-sm-30-negative" style="margin-top: -50px; z-index: 999;position: relative; margin-left: auto; margin-right: auto; padding: 1px;">
                                                 <p class="font-size-22 font-size-sm-15 text-center gray-text"><span class="nexus-color-orange font-weight-bold">Nuevos destinos</span> cada mes​</p>
                                             </div>
                                         </div>
