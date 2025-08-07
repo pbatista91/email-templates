@@ -1865,6 +1865,25 @@
             }
         }
 
+         .imagen-mobile {
+            display: none;
+            max-height: 0;
+            overflow: hidden;
+        }
+
+        @media screen and (max-width: 400px) {
+            .imagen-desktop {
+                display: none !important;
+            }
+
+            .imagen-mobile {
+                display: block !important;
+                width: 100% !important;
+                max-height: none !important;
+                overflow: visible !important;
+            }
+        }
+
     </style>
 </head>
 <body>
@@ -1873,56 +1892,28 @@
             <table id="LogoHeader" class="margin-bottom-22" role="presentation" border="0" cellspacing="0" width="100%">
                 <tr>
                     <td>
-                        <div class="banner-header" alt="banner-header" width="100%">
-                            <div class="container-logo-nexus">
-                                <div class="logo-nexus">
-                                    <img class="imgLogoNexus" alt="logo-nexus" src="https://www.nexustours.com/images/upload//Email-content/Logo-Nexus-White.png">
-                                </div>
+                            <div class="text-center imagen-desktop">
+                                <img src="https://raw.githubusercontent.com/pbatista91/email-templates/refs/heads/main/Frame%2013799.png" alt="group" style="width: 100%; display: block">
                             </div>
-                        </div>
+                            <div class="text-center imagen-mobile">
+                                <img src="https://raw.githubusercontent.com/pbatista91/email-templates/refs/heads/main/Frame%2014058.png" alt="group" style="width: 100%; display: block">
+                            </div>
                     </td>
                 </tr>
             </table>
+
             <table role="presentation" border="0" cellspacing="0" width="100%">
                 <tr>
                     <td>
                         <div class="container90">
-                            <div class="last-chance">
-                                <p class="font-size-sm-20">Don't miss out!</p>
+                            <div class="text-center imagen-desktop">
+                                <img src="https://raw.githubusercontent.com/pbatista91/email-templates/refs/heads/main/Frame%2013799.png" alt="group" style="width: 100%; display: block">
+                                <img src="https://raw.githubusercontent.com/pbatista91/email-templates/refs/heads/main/Group%2014506.png" alt="group" style="width: 100%; display: block">
                             </div>
-                            <div class="card-sd mb-22">
-                                <p class="title-sd font-size-sm-22">Up to</p><p class="discount-clients font-size-sm-50">25% off</p>
+                            <div class="text-center imagen-mobile">
+                                <img src="https://raw.githubusercontent.com/pbatista91/email-templates/refs/heads/main/Frame%2014058.png" alt="group" style="width: 100%; display: block">
+                                <img src="https://raw.githubusercontent.com/pbatista91/email-templates/refs/heads/main/Group%2014507.png" alt="group" style="width: 100%; display: block">
                             </div>
-                            <div class="mb-22">
-                                <p class="InnerSDText font-size-sm-16">on selected mobility services</p>
-                            </div>
-
-                            <div class="container nexus-bg-orange">
-                                <div class="row">
-                                    <div class="column col-30 text-center nexus-vertical-align-center">
-                                        <h2 class="text-white font-size-22 font-size-sm-18 font-weight-normal">Now Available</h2>
-                                    </div>
-                                    <div class="column col-70">
-                                    <div class="card">
-                                        <div class="icon separator-right">
-                                            <img src="https://www.nexustours.com/images/upload//Email-content/2025/transfers/airplane.png" alt="Avión" width="30" height="30">
-                                        </div>
-                                        <div class="text-content">
-                                            <span class="orange-text font-weight-bold font-size-22 font-size-sm-18">+3,5k <span class="gray-text font-weight-normal">Airports</span></span>
-                                            <span class="gray-text font-size-13 font-weight-normal">(Mobility Options)</span>
-                                        </div>
-                                    </div>
-                                    <div class="card nexus-mb-0">
-                                        <div class="icon separator-right">
-                                            <img src="https://www.nexustours.com/images/upload//Email-content/2025/transfers/flag.png" alt="Bandera" width="30" height="30">
-                                        </div>
-                                        <div class="text-content">
-                                            <span class="orange-text font-weight-bold font-size-22 font-size-sm-18">+180 Countries</span>
-                                        </div>
-                                    </div>
-                                    </div>
-                                </div>
-                            </div>            
                             
                             <div class="booking-window">
                                 <p class="booking-1">
@@ -1958,6 +1949,7 @@
                     </td>
                 </tr>
             </table>
+        
             
             <table class="margin-bottom-22" role="presentation" border="0" cellspacing="0" width="100%">
                 <tr>
